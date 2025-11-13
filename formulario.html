@@ -20,15 +20,15 @@
 
 		<main>
 			<h1>Contacto</h1>
-			<form id="form-contacto">
+			<form id="form-contacto" novalidate>
 				<label>Nombre:</label>
-				<input type="text" id="nombre"/>
+				<input type="text" id="nombre" required/>
 
 				<label>Email:</label>
-				<input type="text" id="email"/>
+				<input type="email" id="email" required/>
 
 				<label>Teléfono:</label>
-				<input type="text" id="telefono"/>
+				<input type="text" id="telefono" required/>
 
 				<button type="submit">Enviar</button>
 			</form>
